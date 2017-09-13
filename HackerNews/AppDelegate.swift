@@ -12,16 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   // MARK: Properties
-  
   let GlobalTintColor = UIColor(red: 1.0, green: 0.4, blue: 0.0, alpha: 1.0)
   
   var window: UIWindow?
   
   // MARK: UIApplicationDelegate
-  
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    configureUI()
-    return true
+    
+      configureUI()
+    
+      return true
   }
   
   // MARK: Functions
